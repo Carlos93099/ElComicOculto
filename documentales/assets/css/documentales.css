@@ -1,0 +1,115 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Alegreya', serif;
+    font-weight: bolder;
+    background-image: url(../../../home/assets/images/elcomicoculto2.jpg);
+}
+
+.contenedora {
+    position: fixed;
+    width: 100%;
+    height: 210px;
+    margin: 0;
+    top: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    height: 110px;
+    width: 100%;
+    margin: 0;
+}
+
+header > * {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header > div > * {
+    margin: 0 20px 0 20px;
+}
+
+h1 {
+    color: #FAFAFA;
+}
+
+h2 {
+    color: white;
+}
+
+span {
+    color: #711E21;
+}
+
+.comic-oculto {
+    width: 100px;
+    height: 100px;
+}
+
+.red-social {
+    width: 50px;
+    height: 50px;
+}
+
+.red-social:hover {
+    background-color: white;
+}
+
+#instagram {
+    border-radius: 4px;
+}
+
+#youtube {
+    border-radius: 5px;
+}
+
+.ancla-rs {
+    margin-bottom: 0%;
+}
+
+
+nav {
+    display: flex;
+    background-color: #982332;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ li {
+    display: inline;
+ }
+
+nav li a {
+    padding: 14px 14px;
+    color: #666;
+    background-color: #eeeeee;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    margin: 0;
+ }
+ 
+nav li a:hover{
+    background-color: #333333;
+    color: #ffffff;
+ }
